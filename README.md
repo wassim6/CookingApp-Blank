@@ -1,2 +1,5 @@
 # CookingApp-Blank
-Setting up project with Ionic Material
+
+Example Ionic theme
+
+video demo : https://www.youtube.com/watch?v=mKYDY3uIt-M
