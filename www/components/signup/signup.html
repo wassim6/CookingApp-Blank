@@ -1,0 +1,38 @@
+<ion-view view-title="LOGIN" style="background-color:#f1f5f7;height:100% ">
+    <ion-content>
+        <div class="tabs-striped tabs-color-stable">
+            <div class="tabs" style="position: static;background-color: #388e3c;">
+                <a class="tab-item  myTabs" ui-sref="login" data-ink-color="#205a2d" data-ink-opacity=".35">
+                    LOGIN
+                </a>
+                <a class="tab-item myTabs active" ui-sref="signup" data-ink-color="#205a2d" data-ink-opacity=".35">
+                    SIGNUP
+                </a>
+            </div>
+        </div>
+        &nbsp;
+        <div class="myBox">
+            <button class="button button-fab button-light myFab"><i class="icon ion-plus-round"></i></button>
+            <br/>
+            <input placeholder="Email" type="email" class="myInput" />
+            <br/>
+            <input placeholder="Password" type="password" class="myInput" />
+            <br/>
+            <input placeholder="Confirm Password" type="password" class="myInput" />    
+
+            <button class="button button-flat button-block myBtn" ui-sref="app.recipes" >
+                Go
+            </button>
+            <br/>
+
+        </div>
+        <br/>
+
+        <button style="margin:0px;background-color:#3f569b" class="button button-flat button-block button-positive fbBtn">
+            Facebook
+        </button>
+
+
+
+    </ion-content>
+</ion-view>

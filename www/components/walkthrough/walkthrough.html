@@ -1,0 +1,32 @@
+<ion-view view-title="Intro">
+    <ion-content >
+
+        <ion-slide-box delegate-handle="ionicSlideBoxDelegate" on-slide-changed="slideChanged(index)" style="height:93%;" >
+            <ion-slide style="background-color:#546e7a" >
+                <img src="img/walkthrough1.png" class="img-walkthrough"/>
+                <h2 class="h2-walkthrough" >Explore</h2>
+                <p class="p-walkthrough" style="color:#aab7bd;" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales in justo id blandit. Fusce vitae nulla eu nibh efficitur tristique. In pharetra congue arcu. Cras a sem eu tortor porta auctor at vel ante. 
+                </p>
+            </ion-slide>
+            <ion-slide style="background-color:#ff6d00" >
+                <img src="img/walkthrough2.png" class="img-walkthrough"/>
+                <h2 class="h2-walkthrough" >Make</h2>
+                <p class="p-walkthrough" style="color:#f7d5bb" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales in justo id blandit. Fusce vitae nulla eu nibh efficitur tristique. In pharetra congue arcu. Cras a sem eu tortor porta auctor at vel ante. 
+                </p>
+            </ion-slide>
+            <ion-slide style="background-color:#388e3c;" on-swipe-left="onSwipeLeft()" >
+                <img src="img/walkthrough3.png" class="img-walkthrough"/>
+                <h2 class="h2-walkthrough" >Share</h2>
+                <p class="p-walkthrough" style="color:#b1e0b3" >
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales in justo id blandit. Fusce vitae nulla eu nibh efficitur tristique. In pharetra congue arcu. Cras a sem eu tortor porta auctor at vel ante. 
+                </p>
+            </ion-slide>
+        </ion-slide-box>
+        
+        <button style="margin:0px;background-color:#435862" ng-show="slideIndex==0" ng-click="goToLogin()" class="button button-flat button-block button-positive ">Skip</button>
+        <button style="margin:0px;background-color:#cc5700" ng-show="slideIndex==1" ng-click="goToLogin()" class="button button-flat button-block button-positive ">Skip</button>
+        <button style="margin:0px;background-color:#2d7230" ng-show="slideIndex==2" ng-click="goToLogin()" class="button button-flat button-block button-positive ">Login</button>
+    </ion-content>
+</ion-view>

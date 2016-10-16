@@ -1,0 +1,24 @@
+{
+  "name": "CookingApp",
+  "description": "CookingApp: An Ionic project",
+  "main": "",
+  "authors": [
+    "wassim bou6 <wassim.boussetta@esprit.tn>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "1.5.3",
+    "angular-ui-router": "0.2.13",
+    "angular-sanitize": "1.5.3",
+    "ionic-material": "^0.4.2"
+	}
+}

@@ -1,0 +1,38 @@
+
+<ion-view view-title="Recipes 2" >
+    <ion-content style="background-color:#f1f5f7; padding:15px;" >
+        
+                
+        <div ng-repeat="i in tab track by $index" ng-last-repeat="mylist">
+
+            <div class="caption2 ink">
+                <img src="img/recipes/1.png" class="img-full-width2" style="-webkit-filter: Brightness(50%);" alt="" />
+                <h4 class="title" >Strowberry & Cereals</h4>
+                <p class="time" ><i class="icon ion-android-time" ></i> 12 min</p>
+                <button class="button button-flat button-balanced try">Try</button>
+            </div>
+
+            <div class="caption2 ink">
+                <img src="img/recipes/9.png" class="img-full-width2" style="-webkit-filter: Brightness(50%);"  alt="" />
+                <h4 class="title" >Strowberry & Cereals</h4>
+                <p class="time" ><i class="icon ion-android-time" ></i> 12 min</p>
+                <button class="button button-flat button-balanced try">Try</button>
+            </div>
+
+            <div class="caption2 ink">
+                <img src="img/recipes/3.png" class="img-full-width2" style="-webkit-filter: Brightness(50%);"  />
+                <h4 class="title" >Strowberry & Cereals</h4>
+                <p class="time" ><i class="icon ion-android-time" ></i> 12 min</p>
+                <button class="button button-flat button-balanced try">Try</button>
+            </div>
+
+        </div>
+
+        <ion-infinite-scroll
+            ng-if="moreDataCanBeLoaded"
+            on-infinite="loadMoreData()">
+        </ion-infinite-scroll>
+
+
+    </ion-content>
+</ion-view>
